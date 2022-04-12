@@ -1,0 +1,191 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{gou2020systematic}
+\bibinfo{author}{Gou, X.}, \bibinfo{author}{Wu, X.}, \bibinfo{author}{Shi, Y.},
+  \bibinfo{author}{Zhang, K.} \& \bibinfo{author}{Huang, J.}
+\newblock \bibinfo{title}{A systematic review and meta-analysis of
+  cross-reactivity of antibodies induced by h7 influenza vaccine}.
+\newblock \emph{\bibinfo{journal}{Human vaccines \& immunotherapeutics}}
+  \textbf{\bibinfo{volume}{16}}, \bibinfo{pages}{286--294}
+  (\bibinfo{year}{2020}).
+
+\bibitem{hannenhalli1995transforming}
+\bibinfo{author}{Hannenhalli, S.} \& \bibinfo{author}{Pevzner, P.}
+\newblock \bibinfo{title}{Transforming cabbage into turnip.(polynomial
+  algorithm for sorting signed permutations by reversals). dept. of computer
+  science and engineering, penn state university}.
+\newblock \bibinfo{type}{Tech. Rep.}, \bibinfo{institution}{Technical Report
+  CSE-95-004} (\bibinfo{year}{1995}).
+
+\bibitem{jean2007genome}
+\bibinfo{author}{Jean, G.} \& \bibinfo{author}{Nikolski, M.}
+\newblock \bibinfo{title}{Genome rearrangements: a correct algorithm for
+  optimal capping}.
+\newblock \emph{\bibinfo{journal}{Information Processing Letters}}
+  \textbf{\bibinfo{volume}{104}}, \bibinfo{pages}{14--20}
+  (\bibinfo{year}{2007}).
+
+\bibitem{ozery2003two}
+\bibinfo{author}{Ozery-Flato, M.} \& \bibinfo{author}{Shamir, R.}
+\newblock \bibinfo{title}{Two notes on genome rearrangement}.
+\newblock \emph{\bibinfo{journal}{Journal of Bioinformatics and Computational
+  Biology}} \textbf{\bibinfo{volume}{1}}, \bibinfo{pages}{71--94}
+  (\bibinfo{year}{2003}).
+
+\bibitem{tesler2002efficient}
+\bibinfo{author}{Tesler, G.}
+\newblock \bibinfo{title}{Efficient algorithms for multichromosomal genome
+  rearrangements}.
+\newblock \emph{\bibinfo{journal}{Journal of Computer and System Sciences}}
+  \textbf{\bibinfo{volume}{65}}, \bibinfo{pages}{587--609}
+  (\bibinfo{year}{2002}).
+
+\bibitem{shao2012approximating}
+\bibinfo{author}{Shao, M.} \& \bibinfo{author}{Lin, Y.}
+\newblock \bibinfo{title}{Approximating the edit distance for genomes with
+  duplicate genes under dcj, insertion and deletion}.
+\newblock \emph{\bibinfo{journal}{BMC bioinformatics}}
+  \textbf{\bibinfo{volume}{13}}, \bibinfo{pages}{S13} (\bibinfo{year}{2012}).
+
+\bibitem{fair2019viral}
+\bibinfo{author}{Fair, J.} \& \bibinfo{author}{Fair, J.}
+\newblock \bibinfo{title}{Viral forecasting, pathogen cataloging, and disease
+  ecosystem mapping: Measuring returns on investments}  (\bibinfo{year}{2019}).
+
+\bibitem{Li2020.07.17.20156364}
+\bibinfo{author}{Li, J.}, \bibinfo{author}{Li, T.} \&
+  \bibinfo{author}{Chattopadhyay, I.}
+\newblock \bibinfo{title}{Preparing for the next pandemic: Learning wild
+  mutational patterns at scale for analyzing sequence divergence in novel
+  pathogens}.
+\newblock \emph{\bibinfo{journal}{medRxiv}}  (\bibinfo{year}{2020}).
+\newblock
+  \urlprefix\url{https://www.medrxiv.org/content/early/2020/07/20/2020.07.17.20156364}.
+\newblock
+  \eprint{https://www.medrxiv.org/content/early/2020/07/20/2020.07.17.20156364.full.pdf}.
+
+\bibitem{chattopadhyay2014data}
+\bibinfo{author}{Chattopadhyay, I.} \& \bibinfo{author}{Lipson, H.}
+\newblock \bibinfo{title}{Data smashing: uncovering lurking order in data}.
+\newblock \emph{\bibinfo{journal}{Journal of The Royal Society Interface}}
+  \textbf{\bibinfo{volume}{11}}, \bibinfo{pages}{20140826}
+  (\bibinfo{year}{2014}).
+
+\bibitem{chattopadhyay2018conjunction}
+\bibinfo{author}{Chattopadhyay, I.}, \bibinfo{author}{Kiciman, E.},
+  \bibinfo{author}{Elliott, J.~W.}, \bibinfo{author}{Shaman, J.~L.} \&
+  \bibinfo{author}{Rzhetsky, A.}
+\newblock \bibinfo{title}{Conjunction of factors triggering waves of seasonal
+  influenza}.
+\newblock \emph{\bibinfo{journal}{Elife}} \textbf{\bibinfo{volume}{7}},
+  \bibinfo{pages}{e30756} (\bibinfo{year}{2018}).
+
+\bibitem{huang2021universal}
+\bibinfo{author}{Huang, Y.} \& \bibinfo{author}{Chattopadhyay, I.}
+\newblock \bibinfo{title}{Universal risk phenotype of us counties for flu-like
+  transmission to improve county-specific covid-19 incidence forecasts}.
+\newblock \emph{\bibinfo{journal}{PLoS computational biology}}
+  \textbf{\bibinfo{volume}{17}}, \bibinfo{pages}{e1009363}
+  (\bibinfo{year}{2021}).
+
+\bibitem{onishchenko2021reduced}
+\bibinfo{author}{Onishchenko, D.} \emph{et~al.}
+\newblock \bibinfo{title}{Reduced false positives in autism screening via
+  digital biomarkers inferred from deep comorbidity patterns}.
+\newblock \emph{\bibinfo{journal}{Science advances}}
+  \textbf{\bibinfo{volume}{7}}, \bibinfo{pages}{eabf0354}
+  (\bibinfo{year}{2021}).
+
+\bibitem{moser2019small}
+\bibinfo{author}{Moser, B.} \emph{et~al.}
+\newblock \bibinfo{title}{Small molecule nf-kb inhibitors as immune
+  potentiators for enhancement of vaccine adjuvants}.
+\newblock \emph{\bibinfo{journal}{ChemRxiv}} \textbf{\bibinfo{volume}{10}}
+  (\bibinfo{year}{2019}).
+
+\bibitem{manna2020pathogen}
+\bibinfo{author}{Manna, S.}, \bibinfo{author}{Maiti, S.},
+  \bibinfo{author}{Shen, J.}, \bibinfo{author}{Du, W.} \&
+  \bibinfo{author}{Esser-Kahn, A.~P.}
+\newblock \bibinfo{title}{Pathogen-like nanoassemblies of covalently linked tlr
+  agonists enhance cd8 and nk cell-mediated antitumor immunity}.
+\newblock \emph{\bibinfo{journal}{ACS central science}}
+  \textbf{\bibinfo{volume}{6}}, \bibinfo{pages}{2071--2078}
+  (\bibinfo{year}{2020}).
+
+\bibitem{mollentze2021identifying}
+\bibinfo{author}{Mollentze, N.}, \bibinfo{author}{Babayan, S.~A.} \&
+  \bibinfo{author}{Streicker, D.~G.}
+\newblock \bibinfo{title}{Identifying and prioritizing potential
+  human-infecting viruses from their genome sequences}.
+\newblock \emph{\bibinfo{journal}{PLoS biology}} \textbf{\bibinfo{volume}{19}},
+  \bibinfo{pages}{e3001390} (\bibinfo{year}{2021}).
+
+\bibitem{maher2021predicting}
+\bibinfo{author}{Maher, M.~C.} \emph{et~al.}
+\newblock \bibinfo{title}{Predicting the mutational drivers of future
+  sars-cov-2 variants of concern}.
+\newblock \emph{\bibinfo{journal}{Science translational medicine}}
+  \bibinfo{pages}{eabk3445} (\bibinfo{year}{2021}).
+
+\bibitem{Influenz24:online}
+\bibinfo{author}{CDC}.
+\newblock \bibinfo{title}{Influenza risk assessment tool (irat) | pandemic
+  influenza (flu) | cdc}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.cdc.gov/flu/pandemic-resources/national-strategy/risk-assessment.htm}}.
+\newblock \bibinfo{note}{(Accessed on 07/02/2021)}.
+
+\bibitem{posada1998modeltest}
+\bibinfo{author}{Posada, D.} \& \bibinfo{author}{Crandall, K.~A.}
+\newblock \bibinfo{title}{Modeltest: testing the model of dna substitution.}
+\newblock \emph{\bibinfo{journal}{Bioinformatics (Oxford, England)}}
+  \textbf{\bibinfo{volume}{14}}, \bibinfo{pages}{817--818}
+  (\bibinfo{year}{1998}).
+
+\bibitem{goldberger2005genomic}
+\bibinfo{author}{Goldberger, A.~L.} \& \bibinfo{author}{Peng, C.-K.}
+\newblock \bibinfo{title}{Genomic classification using an information-based
+  similarity index: application to the sars coronavirus}.
+\newblock \emph{\bibinfo{journal}{Journal of Computational Biology}}
+  \textbf{\bibinfo{volume}{12}}, \bibinfo{pages}{1103--1116}
+  (\bibinfo{year}{2005}).
+
+\bibitem{huelsenbeck1997phylogeny}
+\bibinfo{author}{Huelsenbeck, J.~P.} \& \bibinfo{author}{Crandall, K.~A.}
+\newblock \bibinfo{title}{Phylogeny estimation and hypothesis testing using
+  maximum likelihood}.
+\newblock \emph{\bibinfo{journal}{Annual Review of Ecology and systematics}}
+  \textbf{\bibinfo{volume}{28}}, \bibinfo{pages}{437--466}
+  (\bibinfo{year}{1997}).
+
+\bibitem{neher2014predicting}
+\bibinfo{author}{Neher, R.~A.}, \bibinfo{author}{Russell, C.~A.} \&
+  \bibinfo{author}{Shraiman, B.~I.}
+\newblock \bibinfo{title}{Predicting evolution from the shape of genealogical
+  trees}.
+\newblock \emph{\bibinfo{journal}{Elife}} \textbf{\bibinfo{volume}{3}},
+  \bibinfo{pages}{e03568} (\bibinfo{year}{2014}).
+
+\bibitem{VanderMeer2010}
+\bibinfo{author}{van~der Meer, F. J. U.~M.}, \bibinfo{author}{Orsel, K.} \&
+  \bibinfo{author}{Barkema, H.~W.}
+\newblock \bibinfo{title}{{The new influenza A H1N1 virus: balancing on the
+  interface of humans and animals.}}
+\newblock \emph{\bibinfo{journal}{The Canadian veterinary journal = La revue
+  veterinaire canadienne}} \textbf{\bibinfo{volume}{51}},
+  \bibinfo{pages}{56--62} (\bibinfo{year}{2010}).
+
+\bibitem{Smith2009}
+\bibinfo{author}{Smith, G. J.~D.} \emph{et~al.}
+\newblock \bibinfo{title}{{Origins and evolutionary genomics of the 2009
+  swine-origin H1N1 influenza A epidemic}}.
+\newblock \emph{\bibinfo{journal}{Nature}} \textbf{\bibinfo{volume}{459}},
+  \bibinfo{pages}{1122--1125} (\bibinfo{year}{2009}).
+
+\end{thebibliography}
