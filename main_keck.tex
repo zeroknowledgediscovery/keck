@@ -70,7 +70,7 @@
 \newcommand{\VSP}{\vspace{-2pt}}
 \renewcommand{\captionN}[1]{\caption{\color{CadetBlue4!80!black} \sffamily \fontsize{9}{10}\selectfont #1  }}
 \tikzexternaldisable 
-\parskip=6pt
+\parskip=3pt
 \parindent=0pt
 \newcommand{\Mark}[1]{\textsuperscript{#1}}
 \lhead{}
@@ -122,7 +122,8 @@
 \def\infl{Influenza A\xspace}
 \def\PATH{../pnas/}
 %###################################
-
+\def\MONO{mono}
+%\def\MONO{}
 \begin{document} 
 
 \vspace{20pt}
@@ -141,24 +142,23 @@ $\phantom{x}$
 
 %\vspace{10pt}
 
-The continuing mutation of \cov (delta, lambda, omicron) during \cov pandemic  has shown the need for new type of vaccine designs - one that is as dynamic and nimble as the virus it plans to protect against. Periodic reformulations similar to  seasonal  flu vaccines,  is  problematic for \cov given its current rapid rate of mutation coupled with a high transmissibility, infectious asymptomatic patients, vaccine hesitancy, and potentially high mortality. This situation is not unique: emergent viruses experience diverse  selection pressures fostering  adaptations via new mutations. \uline{The current state of knowledge has no reliable tools to preempt such viruses: we do not know when or how new mutants will arise, and how to protect against them~\cite{gou2020systematic,hannenhalli1995transforming,jean2007genome,ozery2003two,tesler2002efficient,shao2012approximating,fair2019viral}.} 
-Thus, there is need of revolutionary conceptual  breakthroughs to predict how a viral strain  mutates in the wild under realistic selection, allowing  the design and testing of hundreds of vaccines before the viral strain emerges.
+The continuing mutation of \cov (delta, lambda, omicron) during \cov pandemic  has shown the need for a new type of vaccine designs - one that is as dynamic and nimble as the virus it plans to protect against. Periodic reformulations similar to  seasonal  flu vaccines,  is  problematic for \cov given its current rapid rate of mutation coupled with a high transmissibility, infectious asymptomatic patients, vaccine hesitancy, and potentially high mortality. This situation is not unique: emergent viruses experience diverse  selection pressures fostering  adaptations via new mutations. \uline{The current state of knowledge has no reliable tools to preempt such viruses: we do not know when or how new mutants will arise, and how to protect against them~\cite{gou2020systematic}\cite{fair2019viral}.} 
+Thus, there is a need of revolutionary conceptual  breakthroughs to predict how a viral strain  mutates in the wild under realistic selection, allowing for the design and testing of vaccines before the emergence event.
 
-\paragraph*{Unique Aspects, Personnel} To achieve this goal, we formulated the methodological foundations to elicit a deep understanding of the evolutionary dynamics  in  the sequence/strain space. Our overarching vision, backed by pilot studies over the past year with limited intramural  funding from the UChicago Big Ideas  incubator, is to  computationally interrogate  evolutionary patterns underlying  the current  pandemic and beyond. Since each viral strain is but a single point in a  $\approx  \times10^4$ dimensional space (\hcov genome  $\approx 3 \times 10^4$ bases), we can never comprehensively explore the  state space. But we don't need to. We reduce the number of combinations by accounting for only the combinations that occur along evolutionary trajectories – making calculation possible on high-performance computing clusters.
+\paragraph*{Unique Aspects} To achieve this goal, we formulated the methodological foundations for a deep understanding of the evolutionary dynamics  in  the sequence/strain space. Our overarchin vision, backed by pilot studies over the past year with limited intramural  funding from the UChicago Big Ideas  incubator, is to  computationally interrogate  evolutionary patterns driving  the current  pandemic and beyond. Since each  strain is but a single point in a  $\approx  \times10^4$ dimensional space (\hcov genome  $\approx 3 \times 10^4$ bases), we can never comprehensively explore the  state space. But we don't need to. We reduce the number of combinations by accounting for only those that occur along evolutionary trajectories – making calculation possible on high-performance computing clusters.
 
-We have to-date predicted new mutations on the \hcov spike protein, and shown in in-vitro experiments that these computationally predicted variants express correctly, are functional (bind to the human ACE2 receptor), and some are more resistant to antibody binding assays compared to the wild type strain. \uline{Using data from early 2020 when the pandemic was in its infancy, we could preempt mutations that eventually arose in the delta variant.} Testing the idea along a longer time-frame, we applied the same concept to Influenza drift. Here, this approach consistently out-perform WHO/CDC predictions for vaccine components with respect to how far removed the predictions were  from the dominant strain in the future season~\cite{Li2020.07.17.20156364}.
+We have to-date predicted new mutations on the \hcov spike protein, and shown in in-vitro experiments that these  predicted variants express correctly, are functional (bind to the human ACE2 receptor), and some are more resistant to antibody binding assays compared to the wild type. \uline{Using data from early days of the pandemic, we could preempt mutations that eventually arose in the delta variant.} Testing the idea along a longer time-frame, we applied the same concept to Influenza drift. Here, this approach consistently out-performed WHO/CDC predictions for vaccine components with respect to how far removed the predictions were  from the dominant strain in the future season~\cite{Li2020.07.17.20156364}.
 
-Thus, via a cross-disciplinary collaboration  between Prof. Ishanu Chattopadhyay~\cite{chattopadhyay2014data,chattopadhyay2018conjunction,huang2021universal,onishchenko2021reduced} (mathematical modeling, information theory, machine learning) and Prof. Aaron Esser-Kahn~\cite{onishchenko2021reduced,moser2019small,manna2020pathogen} (immunology, vaccine science), we envision a radically  approach to escape-resistant vaccine design. Beyond  predicting likely future mutations in circulating strains, the goal of this proposal will be to build a platform technology which can be developed/tested toward (1) predicting mutations within a single individual as a potential source of novel variant emergence, (2) develop a rank-ordering of  sampled strains in animal reservoirs by  risk of emergence (a capability well-beyond the state of the art). Such methods would form the nucleus of a burgeoning field of precision  interventions  in the animal reservoir to preemptively neutralize threats,  \textit{before the first human infection}.
-\DQS{More details on what we are going to do?}
+\paragraph*{Personnel} Thus, via a cross-disciplinary collaboration  between Prof. Ishanu Chattopadhyay (mathematical modeling, information theory, machine learning) and Prof. Aaron Esser-Kahn (immunology, vaccine science), we envision a radically different approach to escape-resistant vaccine design. Beyond  predicting likely future mutations in circulating strains, the goal of this proposal will be to build a platform technology which can be developed/tested toward (1) predicting mutations within a single individual as a potential source of novel variant emergence, and (2) develop a rank-ordering of  sampled strains in animal reservoirs by  risk of emergence (a capability well-beyond the state of the art). Such methods would form the nucleus of a burgeoning field of precision  interventions  in the animal reservoir to preemptively neutralize threats,  \textit{before the first human infection}.
 
-\paragraph*{Justifying Keck Support} Our vision   entails  risks;  we are challenging a prevailing dogma, that future mutations, and variants, of a pathogen are intrinsically random and hence unpredictable.  We have sufficient evidence to the contrary, and need Keck's support to validate our tool in a well-vetted test/design/test loop  ultimately fostering a paradigm shift in  how we combat pandemics in future. While we have been turned down recently by NIH (FOA: AI21-035, Application id: 1 R21 AI169352-01), this study can fundamentally change the game, with high future interest from stakeholders.
+\paragraph*{Justifying Keck Support} Our vision   entails  risks;  we are challenging a prevailing dogma, that future mutations, and variants, of a pathogen are intrinsically random and hence unpredictable.  We have sufficient evidence to the contrary, and need Keck's support to validate our tool in a well-vetted test/design/test loop  ultimately fostering a paradigm shift in  how we combat pandemics in future. While we have been turned down recently by NIH (FOA: AI21-035, Application id: 1 R21 AI169352-01), this study can fundamentally change the game, with high future interest from stakeholders, including NIH and Biological Tech. office at DARPA.
 
-\paragraph*{Budget, Timeline} Conducted  over a period of three years costing  1.15M USD, supporting study personnel (PI time + Postdoctoral time $\approx 33\%$, computational costs ($\approx 10\%$) and experimental costs ($\approx 50\%$). 
+{\color{Blue1}\paragraph*{Budget, Timeline} Conducted  over a period of three years costing  1.25M USD, supporting study personnel (PI time + Postdoctoral time $\approx 33\%$, computational costs ($\approx 16\%$) and experimental costs ($\approx 50\%$). }
   
 
 
 \clearpage
-\limitpages{2}
+\limitpages{3}
 
 \setcounter{page}{1}
 
@@ -173,57 +173,60 @@ Thus, via a cross-disciplinary collaboration  between Prof. Ishanu Chattopadhyay
 
 
 
-\paragraph*{Overview} The \cov pandemic, despite multiple vaccines, continues to be an ongoing challenge as new variants and potential escape mutants emerge. The current practice has no tools to predict, let alone preempt such emergence: we do not know when  new mutants  will arise, and how these mutants will differ in terms of pathogenicity, transmissibility and resistance to current vaccines.  A key conceptual barrier  is the missing ability to numerically estimate the likelihood of specific future mutations. Currently this likelihood is  equated to sequence similarity, which is measured by how many mutations it takes to change one strain to another (the edit distance). In reality, the odds of one sequence mutating to another is a function of not just how many mutations they are apart to begin with, but also how specific mutations incrementally affect fitness. Ignoring the constraints needed to conserve function makes any assessment of the mutation likelihood suspect. In this study we plan to computationally learn these complex and hitherto unknown evolutionary constraints from large sequence databases, enabling us to the chart   trajectories of wild pathogens at scale. We propose to experimentally validate our approach  in binding and neutralization assays,  allowing us to leverage  sequence and structural  annotation databases, to predict when and how new strains are expected to appear, along with their  impact on pathogenicity, and the potential for vaccine escape. %Beyond escape-resistant vaccine design, our framework will enable rank-ordering collected animal strains at scale according to their true risk of emergence, making possible pro-active bio-surveillance. 
+\paragraph*{Overview} The \cov pandemic, despite multiple vaccines, continues to be an ongoing challenge as new variants and potential escape mutants emerge. The current practice has no tools to predict, let alone preempt such emergence: we do not know when  new mutants  will arise, and how these mutants will differ in terms of pathogenicity, transmissibility and resistance to current vaccines.  A key conceptual barrier  is the missing ability to numerically estimate the likelihood of specific future mutations. Currently this likelihood is  equated to sequence similarity, which is measured by how many mutations it takes to change one strain to another (the edit distance). In reality, the odds of one sequence mutating to another is a function of not just how many mutations they are apart at the beginning, but also how specific mutations incrementally affect fitness. Ignoring the constraints needed to conserve function makes any assessment of the mutation likelihood suspect. In this study we plan to computationally learn these complex and hitherto unknown evolutionary constraints from large sequence databases, enabling us to the chart   trajectories of wild pathogens at scale. We propose to experimentally validate our approach  in binding and neutralization assays,  allowing us to leverage  sequence and structural  annotation databases, to predict when and how new strains are expected to appear, along with their  impact on pathogenicity, and vaccine escape. %Beyond escape-resistant vaccine design, our framework will enable rank-ordering collected animal strains at scale according to their true risk of emergence, making possible pro-active bio-surveillance. 
 
-\paragraph*{Relevant Efforts} The  Big Ideas Generator (BIG) program at the University of Chicago  has funded our initial work, with  substantial interest going forward.
+\paragraph*{Relevant Efforts} {\color{Red1} The  Big Ideas Generator (BIG) program at the University of Chicago  has funded our initial work, with  substantial interest going forward with staff and utility support.} 
 %Describe past and current efforts at your institution that are relevant to this project, including institutional resources that will support the work.
 
 \paragraph*{Peer Groups} %Reviewing past Keck grants (2018-2020), we could find no funded project with  any cross-over with our approach. % While there have been funded work addressing  host-microbe interactions,  virulence and evolution,  charting strain-space trajectories of rapidly evolving pathogens is unexplored.
 %Nevertheless,  the underlying scientific questions we are  addressing are of high interest.
-Very recently, two articles have explored the possibility of predicting pathogenicity  from genomic sequences (Mollentze~\cite{mollentze2021identifying}), and forecasting which amongst observed  mutations will dominate the circulating population (Maher $\etal$~\cite{maher2021predicting}). While these questions overlap with our framework,  our approach is distinct, and vastly more ambitious both intellectually and in scope. Mollentze  uses  classical  sequence similarity; extended to include similarity to  human housekeeping genes hoping to identify viruses  evading the human immune system more easily, with poor   performance (tagging incorrectly all SARS-related coronaviruses as potentially pathogenic), and un-actionable specificity. And, Maher  outright assumes mutations to be independent, with \hcov specific manually selected features hacked together via  machine learning. Importantly, these approaches  % treat a complete  strain (or the RBD) as the target object of prediction or modeling -
-only aim to predict point mutations, with  the gargantuan complexity of tracking a more complete strain (or the RBD fragment) through an  ultra-high-dimensional sequence space lying well beyond reach. Thus, even the question  if a yet-to-be-seen strain is indeed a valid biological encoding of a virus (which is simpler to determining risk posed by such future variants) cannot answered by our peers, \uline{limiting such approaches to analyzing mutations already seen, or strains  already collected}.  Additionally, generalizability and actionability is  suspect, given that Maher's features are \hcov specific, and  Mollentze's similarity to house-keeping genes might not be universal. %Finally, both these  approaches apply to a mutation or a combination of mutations that already exist, and cannot predict new mutations, or new strains.
+Very recently, two articles investigated predicting pathogenicity  from genomic sequences (Mollentze~\cite{mollentze2021identifying}), and identifying current mutations which might dominate in future (Maher $\etal$~\cite{maher2021predicting}). While these questions overlap with our framework,  our approach is distinct, and vastly more ambitious both intellectually and in scope. Mollentze  uses  classical  sequence similarity to  human housekeeping genes hoping to identify viruses  evading the human immune system, with limited   performance (tagging incorrectly all SARS-related coronaviruses as pathogenic). And, Maher assumes mutations are mutually independent ignoring crucial epistatic and compensatory effects~\cite{storz2018compensatory}, combining  manually curated \hcov-specific putative features via machine learning. Importantly, these approaches  % treat a complete  strain (or the RBD) as the target object of prediction or modeling -
+ aim to predict point mutations, not addressing the next-level challenge of tracking dependent and compensatory mutations throughout a complete strain. Such ultra-high-dimensional sequence space predictions  lie well beyond reach of our peers. While useful in hindsight analysis, these approaches cannot yet predict a new strain with an estimated probability, or predict whether it will pose a threat.  Our method goes deeper into the fundamental principles underlying viral evolution, using information from each sequence to make strain-specific predictions. Thus, with sufficient data we can track any species,  its future mutations and emergence events. %This is crucial -- the next pandemic may not be a CoV derivative.
 
 
 % 2. Determining which animal viruses may be capable of infecting humans is currently intractable at the time of their discovery, precluding prioritization of high-risk viruses for early investigation and outbreak preparedness. Given the increasing use of genomics in virus discovery and the otherwise sparse knowledge of the biology of newly discovered viruses, we developed machine learning models that identify candidate zoonoses solely using signatures of host range encoded in viral genomes.
 
 
 \paragraph*{Goals \& Methodology}
-We computationally infer a recursive forest of predictors (the Q-net) that maximally extracts dependency information between mutations \& motifs, and can preempt complete strains that have never been seen before, but nevertheless represent a valid genomic sequence. Our framework is generalizable, we do not need to manually curate features that apply to individual viruses, resulting in unprecedented scalability. \DQS{more details here?}
-Our planned goals are: \begin{enumerate} 
+We computationally infer a collection of cross-dependent predictors (the Q-net) that maximally extracts dependency information between mutations \& motifs. We can preempt complete strains that have never been seen before, but nevertheless represent a valid genomic sequence. Our framework is general. With no manually curated features for  individual viral species, our \textit{sequence only} model lends robust scalability. 
+Our goals (Fig.~1): \begin{enumerate} 
 [label=$\square$, leftmargin=0pt,
 labelindent=0em, topsep=0.1em, labelsep=*, itemsep=.25em,itemindent=1em]
 
-\item \textbf{Aim 1: Validate  a biologically meaningful metric (the q-distance) for comparison of genomic sequences. (6 months)}  Combining novel machine learning, and  information theory, we will  characterize  patterns of mutations from large sequence databases that constrain evolutionary trajectories, to inform a biologically relevant metric of similarity between genomic sequences.  We hypothesize   this q-distance  to   adapt to specific organisms, its background population, and realistic selection pressures. We plan to demonstrate these results in expression and functional assays, showing that smaller q-distance indicates similar phenotypes.
+\item \textbf{Aim 1: Validate  a meaningful comparison (q-distance) for genomic sequences. (12 mo, Y1)}  Combining novel machine learning, and  information theory, we will  characterize  mutation patterns  from large sequence databases~\cite{Hatcher_2016} that constrain evolutionary trajectories and reveal selection pressures,  to inform a biologically meaningful species-specific adaptive metric of sequence similarity. Using \hcov \& \infl as model organisms, we will validate the q-distance using past trajectories  of dominant strains, showing closer sequences in this metric are more predictive of phenotype than edit distance.%, validating the novel metric. % We hypothesize   this q-distance  to   adapt to specific organisms, its background population, and realistic selection pressures. 
+%Our goal will be to produce 1,000 predicted sequences over both the historic period and the 6 mo to 1 year predicted period. 
 %
-\item \textbf{Aim 2: Develop and validate  algorithm for preempting possible future variants (18 month) } With  tractable function-aware sampling (q-sampling) of the neighborhood of an observed strain in ultra-high-dimensional  possibility space, we will preempt: 1) \uline{future likely mutations} 2) probability of spontaneous jump  via specific mutations, and 3)  likely variants arising within specific time-frames in the wild. Validate  that predicted mutations/strains  are biologically plausible,  expressing functional proteins --  in silico and in laboratory assays, piloted with the spike protein for \hcov and Hemagglutinin (HA) for Influenza A. 
+\item \textbf{Aim 2: Develop+validate  algorithm preempting future variants (24 mo, Y1-Y2) } With  tractable function-aware sampling (q-sampling) of the neighborhood of an observed strain in ultra-high-dimensional  possibility space, we will preempt: 1) \uline{future likely mutations} 2) probability of spontaneous jump  via specific mutations, and 3)  likely variants arising within specified time-frames in the wild. Validate  that predicted mutations/strains  are biologically plausible,  expressing functional proteins, both  in silico and in laboratory assays, piloted with the spike protein for \hcov and Hemagglutinin (HA) for Influenza A. In each case, we will predict $10^3$ in silico sequences of each protein, validate  folding in-silico using standard software~\cite{bagdonas2021case}, then screen top-candidates for in-vitro assays.
   %
-\item \textbf{Aim 3. Preempt and characterize escape variants. (24 month) } Preempt escape variants, via characterizing future mutations that  \uline{evade standard antibody neutralization assays}, and thus are candidate escape mutants for  \hcov and \infl.
+\item \textbf{Aim 3. Preempt and characterize escape variants. (36 mo, Y2-Y4) } Preempt escape variants, via characterizing future mutations that  \uline{evade standard antibody neutralization assays}, and thus are candidate escape mutants for  \hcov and \infl. Taking the 1,000 pseudo-virus expressing proteins , we will down-select for proteins that (1) bind either ACE-2 or Sialic Acids (est 100), and then (2) escape the binding of panels of sera from convalescent patients and vaccine recipients (estimate 10-50). These $\approx$10-50 protein sequences will then be encoded as model mRNA vaccines and their antibody responses evaluated. The success metric here is to show that our tools significantly reduce escape odds. This characterization will also feed-back to fine-tune q-sampling to directly predict, escape mutants with high probability.
   % 
-\item \textbf{Aim 4. Evaluate the ability of the proposed tools to define the emergence edge identifying animal strains  poised to emerge into humans with high transmissibility/pathogenicity. (24 month)}  Piloted with emerging \infl strains, we will compare our predictions \uline{against CDC-developed Influenza Risk Assessment Tool (IRAT) scores~\cite{Influenz24:online}}  for influenza variants, and aim to characterize all Influenza A sequences (and predicted variants)  in public databases.  If validated, such a tool will vastly accelerate such risk assessment, cutting down the time required for individual strains from weeks/months to under a second.
+\item \textbf{Aim 4. Define the emergence edge identifying animal strains  poised to emerge into humans with high transmissibility/pathogenicity. (24 mo, Y3-Y4)}  Piloted with emerging \infl strains, compare  predictions \uline{against CDC-developed Influenza Risk Assessment Tool (IRAT) scores~\cite{Influenz24:online}}  for flu variants, and  characterize all Influenza A sequences (and predicted variants)  in public databases.  If validated, we will vastly accelerate risk assessment, cutting down the time required for individual strains from weeks/months to $< 1$sec.
 \end{enumerate}
-\DQS{Need to discuss the methods}
-\DQS{need to have figure?}
 %
-\paragraph*{Impact}  Tools for adhoc quantification of genomic similarity~\cite{posada1998modeltest,goldberger2005genomic,huelsenbeck1997phylogeny,neher2014predicting,VanderMeer2010,Smith2009} are \textbf{not inherently biologically meaningful} -- a smaller edit distance between two strains  does not necessarily imply that a feasible wild trajectory exists from one to the other.  Our  algorithms are a first to learn the \textbf{appropriate metric of comparison from data}, without assuming any model of DNA/RNA or amino acid substitution, or a genealogical tree a priori, and are  designed to be aware of the impact of the  host environment and background epidemiology. %We have demonstrated in theory~\cite{Li2020.07.17.20156364} and in our preliminary studies (Fig?) that sequences which evaluate to be close in this metric are close in function and/or phenotypic properties, and fitness. % Leveraging the wealth of biological knowledge hidden in the patterns of variations and phenotypic annotations of thousands to tens of thousands of sequences collected so far ($e.g.$ for \hcov and \infl), we plan to create  predictive models of the constraints defining the rules of organization of evolutionary change.
-This study, if successful, will have profound impact on  biosurveillance strategies, and what we do with the products of such efforts. With  risk-wise rank-ordering of  newly collected strains, we can  1) better judge pandemic risks, 2) quantify the odds of a particular strain spilling to humans, and 3) estimate its potential to lead to a global pandemic. And for strains already circulating in the human population, we can potentially  4) preempt variants, 5) their timeline of emergence,  6) their odds of escaping current vaccines, and ultimately 7) design escape-resistant vaccines. %This study potentially represents an important step forward in modeling emerging pathogens, with uncharted impact on science and health, particularly as we prepare for the aftermath of \cov.% Describe the potential impacts of achieving these goals. 
+\begin{wrapfigure}[17]{l}{4.7in}
+\vspace{-29pt}
 
-\begin{figure}[!ht]
-  \includegraphics[width=\textwidth]{Figures/fig}
-  \captionN{Conceptual framework and current results}\label{fig1}
-  \vspace{-10pt}
+  \includegraphics[width=4.8in]{Figures/fig0\MONO}
   
-\end{figure}
-  \vspace{-10pt}
+    \vspace{-18pt}
 
-\paragraph*{Fundraising} To date $\approx$100K has been allocated, including  BIG funding + development funding from Chattopadhyay Lab. We have pending proposals at NSF (PIPP program, 1M USD, summer 2022) and NIH (NIAID R21, 400K, Fall 2022). 
+  \captionN{Conceptual framework and outcomes: General approach to scalably learn mutational  dependencies to predict future escape variants and proactive surveillance }\label{fig1}
+  \vspace{5pt}
+  
+\end{wrapfigure}\paragraph*{Impact}  Tools for adhoc quantification of genomic similarity~\cite{posada1998modeltest,neher2014predicting} are not meaningful -- a smaller edit distance between two strains  does not imply  a feasible wild trajectory  from one to the other.  Our  algorithms are a first to learn the \textbf{appropriate metric of comparison}, without assuming any model of DNA/RNA substitution, or a genealogical tree a priori, and are  designed to be aware of the impact of the  host environment and background epidemiology. %We have demonstrated in theory~\cite{Li2020.07.17.20156364} and in our preliminary studies (Fig?) that sequences which evaluate to be close in this metric are close in function and/or phenotypic properties, and fitness. % Leveraging the wealth of biological knowledge hidden in the patterns of variations and phenotypic annotations of thousands to tens of thousands of sequences collected so far ($e.g.$ for \hcov and \infl), we plan to create  predictive models of the constraints defining the rules of organization of evolutionary change.
+This study, if successful, will have profound impact on  biosurveillance strategies, and what we do with the products of such efforts. With  risk-wise rank-ordering of  newly collected strains, we can  1) better judge pandemic risks, 2) quantify the odds of a particular strain spilling to humans, and 3) estimate its potential to lead to a global pandemic. And for strains already circulating in the human population, we can potentially  4) preempt variants, 5) their timeline of emergence,  6) their odds of escaping current vaccines, and ultimately 7) design escape-resistant vaccines.
+
+\textbf{Fundraising:} To date $\approx$100K allocated (BIG funding + PI development fund). We have pending proposals at NSF (PIPP, 1M USD, summer '22) and NIH (R21, 400K, Fall '22). 
 
 \clearpage
 
 \input{pagecontrol.tex}
-\setcounter{page}{1}
+\limitpages{8}
 
+\setcounter{page}{1}
+ %This study potentially represents an important step forward in modeling emerging pathogens, with uncharted impact on science and health, particularly as we prepare for the aftermath of \cov.% Describe the potential impacts of achieving these goals. 
+%
 \section*{Knowledgeable Experts in the field}
-\DQS{Need 5, please suggest}
 1. Peter Hraber\\
 Theoretical Biology \& Biophysics Group, T-6\\
 Theoretical Division\\
@@ -263,19 +266,33 @@ Prof. Manicassamy is an expert in influenza viruses and respiratory pathogens, w
 \vskip 1em
 \hrule
 
-4.
+4. Geoffrey Lynn \\ 
+Senior Vice President, Synthetic Immunotherapies at Vaccitech\\
+1812 Ashland Ave\\ Baltimore, MD 21205\\
+Bethesda, Maryland, United States\\
+%phone: \\
+email: Geoffrey.Lynn@vaccitech.us\\
+
+Dr. Lynn is an expert in synthetic chemistry and cellular immunology with research interest in precision immunotherapies for complex diseases. 
 \vskip 1em
 \hrule
 
-5.
+5. Danny Altmann \\
+5S5C Hammersmith Hospital\\
+Hammersmith Campus\\
+72 Du Cane Rd, London W12 0HS, United Kingdom\\
+phone: +44 (0)20 3313 8212\\
+email:  d.altmann@imperial.ac.uk\\
+
+Prof. Altmann is an a well-known immunologist with research interest in the immunology of  infectious disease including severe bacterial infections.
 \vskip 1em
 \hrule
 \clearpage
 
 \normalem 
 
-\bibliographystyle{naturemag}
-\bibliography{keck,qnet,BibLib1,bioshock_refs,bioshock}
+\bibliographystyle{abbrvnat}
+\bibliography{keck,qnet}
 
  
 
